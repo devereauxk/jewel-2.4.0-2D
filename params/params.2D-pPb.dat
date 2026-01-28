@@ -1,0 +1,16 @@
+NEVENT 100
+LOGFILE logs/2D-pPb.log
+HEPMCFILE eventfiles/2D-pPb.hepmc
+PTMIN 10.
+PTMAX -1.
+ETAMAX 2.5
+SQRTS 8160.
+MASS 1.
+# this is to include recoil effects
+KEEPRECOILS T
+# to write the output necessary for subtraction of the thermal momentum components
+WRITESCATCEN T
+# to write out dummy particles (needed for 4MomSub subtraction)
+WRITEDUMMIES T
+# And we also want to change the medium parameters:
+MEDIUMPARAMS /home/kdeverea/Jewel/jewel-2.4.0/params/medium.2D-pPb.dat

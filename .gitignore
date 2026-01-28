@@ -1,0 +1,8 @@
+*.o
+*.mod
+*.hepmc
+*.root
+params/pPb
+eventfiles
+logs
+

@@ -1,0 +1,3 @@
+# This is the parameter file for the medium model.
+# Isobel's hydro profile path:
+HYDRODIR /home/kdeverea/Jewel/jewel-2.4.0/hydro/run_000/results
