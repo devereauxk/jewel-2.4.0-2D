@@ -2,7 +2,9 @@
 
 Kyle Devereaux
 
-Forked from Isobel Kolbe's jewel-2.4.0-2D codebase https://github.com/isobelkolbe/jewel-2.4.0-2D/tree/main
+Forked from Isobel Kolbe's jewel-2.4.0-2D codebase https://github.com/isobelkolbe/jewel-2.4.0-2D/
+
+Jewel manual https://arxiv.org/pdf/1311.0048
 
 
 ## JEWEL install

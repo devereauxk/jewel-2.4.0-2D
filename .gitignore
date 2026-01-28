@@ -2,6 +2,7 @@
 *.mod
 *.hepmc
 *.root
+Execute*
 params/pPb
 eventfiles
 logs
