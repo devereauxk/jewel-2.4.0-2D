@@ -5,4 +5,6 @@
 params/pPb
 eventfiles
 logs
-./*.dat
+pdfs.dat
+splitint.dat
+xsecs.dat
