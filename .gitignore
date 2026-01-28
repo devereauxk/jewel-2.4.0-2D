@@ -5,4 +5,4 @@
 params/pPb
 eventfiles
 logs
-
+./*.dat
