@@ -190,7 +190,6 @@ C--   default settings
 
 C--   read settings from file
       write(logfid,*)
-      write(*,*) 'Trying to open medium parameter file: ', FILE
       inquire(file=FILE,exist=fileexist)
       if(fileexist)then
          write(logfid,*)'Reading medium parameters from ',FILE
@@ -653,12 +652,12 @@ c--   Ideal gas of NF flavours q and g
       if (eta.gt.etamax2) then
          getneff = 0.d0
       else
-         if (withflow) then      
+         if (withflow) then         
             ux=getux(x3,y3,z3,t3)
             uy=getuy(x3,y3,z3,t3)
             frap = getfrap(ux,uy)
 
-C--         Find angle between fluid velocity and parton momentum 
+C--         Find angle between fluid velocity and parton momentum
             unorm = sqrt(ux**2 + uy**2)
             pnorm = sqrt(px**2 + py**2)
             costheta = (ux*px +uy*py)/(unorm*pnorm)

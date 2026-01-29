@@ -3,4 +3,4 @@ CENTRMIN 0.
 CENTRMAX 100.
 A 208
 # Isobel's hydro profile path:
-HYDRODIR /home/kdeverea/Jewel/hydro/pPb/sample/.15
+HYDRODIR /home/kdeverea/Jewel/hydro/pPb/sample/2.1

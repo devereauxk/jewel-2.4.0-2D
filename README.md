@@ -14,8 +14,8 @@ These are just the commands I used to install it to my directory. Update the tar
 ### Install LHAPDF
 
 ```bash
-mkdir jewel
-cd jewel
+mkdir Jewel
+cd Jewel
 mkdir lhapdf
 
 [copy lhapdf tar to this directory, get this from their hepforge site]
@@ -64,4 +64,9 @@ export LHAPATH=/cvmfs/sft.cern.ch/lcg/external/lhapdfsets/current
 https://github.com/isobelkolbe/jewel-2.4.0-2D
 
 - Copy Isobel’s`medium-2D.f` AND `jewel-2.4.0.f`  to your directory. Doesn’t say to copy `jewel-2.4.0.f` in Isobel’s readme but you need too!
-- I had to change line `160` of `medium-2D.f`  to `character*80 FILE, buffer`  for the medium parameter file to be read correctly.
+- I had to change line `160-161` of `medium-2D.f` from `character*80 FILE, buffer` to
+```
+character*80 FILE
+character*300 buffer
+```
+for the medium parameter file to be read correctly.

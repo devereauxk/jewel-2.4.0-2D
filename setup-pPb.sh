@@ -28,6 +28,7 @@ HEPMCFILE eventfiles/pPb/2D-pPb-${NCOLL}.hepmc
 PTMIN 10.
 PTMAX -1.
 ETAMAX 2.5
+PROCESS 'PPZJ'
 SQRTS 8160.
 MASS 1.
 # this is to include recoil effects
