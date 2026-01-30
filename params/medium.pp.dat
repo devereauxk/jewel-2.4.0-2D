@@ -1,0 +1,4 @@
+# This is the parameter file for the medium model.
+CENTRMIN 0.
+CENTRMAX 100.
+A 1

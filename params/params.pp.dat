@@ -1,6 +1,6 @@
-NEVENT 1000
-LOGFILE logs/2D-pPb.log
-HEPMCFILE eventfiles/2D-pPb.hepmc
+NEVENT 100000
+LOGFILE logs/pp.log
+HEPMCFILE eventfiles/pp.hepmc
 PTMIN 10.
 PTMAX -1.
 ETAMAX 2.5
@@ -15,4 +15,4 @@ WRITESCATCEN T
 # to write out dummy particles (needed for 4MomSub subtraction)
 WRITEDUMMIES T
 # And we also want to change the medium parameters:
-MEDIUMPARAMS /home/kdeverea/Jewel/jewel-2.4.0/params/medium.2D-pPb.dat
+MEDIUMPARAMS /home/kdeverea/Jewel/jewel-2.4.0/params/medium.pp.dat
